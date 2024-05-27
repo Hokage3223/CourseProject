@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>When the lights shut off
+And it's my turn to settle down
+My main concern
+Promise that you will sing about me
+Promise that you will sing about me
+I said when the lights shut off
+And it's my turn to settle down
+My main concern
+Promise that you will sing about me
+Promise that you will sing about me
+I woke up this morning and figured I'd call you
+In case I'm not here tomorrow, I'm hoping that I can borrow
+A peace of mind, I'm behind on what's really important
+My mind is really distorted, I find nothing but trouble in my life
+I'm fortunate you believe in a dream
+This orphanage we call a ghetto is quite a routine
+And last night was just another distraction or a reaction
+Of what we consider madness, I know exactly what happened
+You ran outside when you heard my brother cry for help
+Held him like a newborn baby and made him feel
+Like everything was alright and a fight he tried to put up
+But the type of bullet that stuck had went against his will
+As blood spilled on your hands, my plans rather vindictive
+Everybody's a victim in my eyes
+When I ride, it's a murderous rhythm and outside became pitch black
+A demon glued to my back whispering, "Get 'em"
+I got 'em, and I ain't give a fuck
+That same mentality that told my brother not to duck
+In actuality, it's a trip how we trip off of colors
+I wonder if I'll ever discover a passion like you and recover
+The life that I knew as a young'n in pajamas and dun-ta-duns
+When thunder comes it rains cats and dogs
+Dumb niggas like me never prosper
+Prognosis of a problem child, I'm proud and well devoted
+This piru shit been in me forever
+So forever I'mma push it, wherever, whenever
+And I love you 'cause you love my brother like you did
+Just promise me you'll tell this story when you make it big
+And if I die before your album drop, I hope (gunshots)
+Promise that you will sing about me
+Promise that you will sing about me
+I said when the lights shut off
+And it's my turn to settle down
+My main concern
+Promise that you will sing about me
+Promise that you will sing about me
+You wrote a song about my sister on your tape
+And called it Section.80, the message resembled "Brenda's Got a Baby"
+What's crazy was, I was hearing about it
+But doubted your ignorance how could you ever just put her on blast and shit
+Judging her past and shit, well, it's completely my future
+Her nigga behind me right now asking for ass and shit
+And I'mma need that forty dollars even if I gotta
+Fuck, suck and swallow in the parking lot
+Gonzales Park, I'm followed by a married man, a father of three
+My titties bounce on the cadence of his tinkling keys
+Matter of fact, he my favorite 'cause he tip me with E's
+He got a cousin named David and I seen him last week
+This is the life of another girl damaged by the system
+These foster homes, I run away and never do miss 'em
+See, my hormones just run away and if I can get 'em back
+To where they used to be then I'll probably be in the denim
+Of a family gene that show women how to be woman
+Or better yet, a leader, you need her to learn somethin'
+Then you probably need to beat her, that's how I was taught
+Three niggas in one room, first time I was tossed
+And I'm exhausted, but fuck that "Sorry for your loss" shit
+My sister died in vain, but what point are you trying to gain
+If you can't fit the pumps I walk in? I'll wait
+Your rebuttal a little too late
+And if you have a album date, just make sure I'm not in the song
+'Cause I don't need the attention bring enough of that on my own
+And matter fact, did I mention that I physically feel great?
+A doctor's approval is a waste of time, I know I'm straight
+I'll probably live longer than you and never fade away
+I'll never fade away, I'll never fade away, I know my fate
+And I'm on the grind for this cake, I'mma get it or die trying
+I'm eyeing every male gender with intentions of buying
+You lying to these motherfuckers, talking about you can help 'em
+With my story, you can help me if you sell this pussy for me, nigga
+Don't ignore me, nigga, fuck your glory, nigga...
+When the lights shut off
+And it's my turn to settle down
+My main concern
+Promise that you will sing about me
+Promise that you will sing about me
+I said when the lights shut off
+And it's my turn to settle down
+My main concern
+Promise that you will sing about me
+Promise that you will sing about me
+Sometimes I look in a mirror and ask myself:
+Am I really scared of passing away? If it's today, I hope I hear a
+Cry out from heaven so loud it can water down a demon
+With the holy ghost 'til it drown in the blood of Jesus
+I wrote some raps that make sure that my lifeline
+Reeking the scent of a reaper, ensuring that my allegiance
+With the other side may come soon, and if I'm doomed
+May the womb help my mother be blessed for many moons
+I suffer a lot, and every day the glass mirror
+Get tougher to watch; I tie my stomach in knots
+And I'm not sure why I'm infatuated with death
+My imagination is surely an aggravation of threats
+That can come about, 'cause the tongue is mighty powerful
+And I can name a list of your favorites that probably vouch
+Maybe 'cause I'm a dreamer and sleep is the cousin of death
+Really stuck in the schema of wondering when I'mma rest
+And you're right, your brother was a brother to me
+And your sister's situation was the one that pulled me
+In a direction to speak of something that's realer than the TV screen
+By any means, wasn't trying to offend or come between
+Her personal life, I was like, "It need to be told"
+Cursing the life of twenty generations after her soul
+Exactly what'd happen if I ain't continued rappin'
+Or steady being distracted by money drugs and four-
+Fives, I count lives all on these songs
+Look at the weak and cry, pray one day, you'll be strong
+Fighting for your rights even when you're wrong
+And hope that at least one of you sing about me when I'm gone
+Am I worth it?
+Did I put enough work in?
+Promise that you will sing about me
+Promise that you will sing about me
+I said when the lights shut off
+And it's my turn to settle down
+My main concern
+Promise that you will sing about me
+Promise that you will sing about me
+(Promise that you'll sing about me forever
+Promise that you'll sing about me for-ooooh)
+Promise that you'll sing about me forever
+Promise that you'll sing about me for-ooooh
+Promise that you'll sing about me forever
+Promise that you'll sing about me for-ooooh
+"Nigga, the homie's brother-- nigga, right here, he gone, my nigga, he gone!"
+"Nigga-- they just killed the homie's brother, my nigga. We right here on the block, my nigga."
+"Al- alright, nigga-- nigga just come-- alright, alright, just call me back, man, just call me back."
+(Hangs up)
+"Arghh... *fuck!*
+...So what we gon' do, my niggas? What we gon' do?"
+"Bro, we can go back right now, my nigga. Like... nigga, I don't give a FUCK, my nigga. We can go back right now.*"
+"Fuck! I'm tired of this shit! I'm tired of fuckin' runnin', I'm tired of this shit! My brother, homie!"
+Tired of running, tired of hunting
+My own kind but retiring nothing
+Tires are steady screeching, the driver is rubbing
+Hands on the wheel, who said we wasn't
+Dying of thirst, dying of thirst, dying of thirst
+Dope on the corner, look at the coroner
+Daughter is dead, mother is mournin' her
+Strayed bullets, AK bullets
+Resuscitation was waiting patiently but they couldn't
+Bring her back, who got the footage?
+Channel 9, cameras is looking
+It's hard to channel your energy when you know you're crooked
+Banana clip, split his banana pudding
+I'm like Tre, that's Cuba Gooding
+I know I'm good at
+Dying of thirst, dying of thirst, dying of thirst
+How many sins? I'm running out
+How many sins? I lost count
+Dreams of balling like Spalding
+But only shotty bounce
+The reaper calling, I'm cottonmouth
+Money is power (money is power)
+Yours is ours (yours is ours)
+Lay with a snitch, die with a coward
+Hope we get rich, hope we can tower
+Over the city with vanity with the music louder
+The same song, a black flower
+I'll show you how to dye your thirst, dye your thirst, dye your thirst
+What are we doing? Who are we fooling?
+Hell is hot, fire is proven
+To burn for eternity, return of the student
+That never learned how to live righteous but how to shoot it
+Tired of running, choirs is hummin'
+Tell us to visit, we lying 'bout comin'
+Now back to business, loading the guns in
+Back of the Buick, your hood is feuding, and the beef is bubblin'
+It's no discussion
+Hereditary, all of my cousins
+Dying of thirst, dying of thirst, dying of thirst
+Too many sins, I'm running out
+Somebody send me a well for the drought
+See, all I know, is taking notes
+On taking this life for granted, granted, if he provoke
+My best days, are stress days
+(Lord, forgive me for all my sins for I not know...)
+My best days, are stress days
+Say "Fuck the world, " my sex slave
+Money, pussy and greed; what's my next crave
+Whatever it is, know it's my next grave
+Tired of running, tired of running
+Tired of tumbling, tired of running
+Tired of tumbling
+Back once my momma say
+"See a pastor, give me a promise
+What if today was the rapture, and you completely tarnished
+The truth will set you free, so to me be completely honest
+You dying of thirst, you dying of thirst
+So hop in that water, and pray that it works"
+Fuck! I'm tired of this shit! I'm tired of fuckin' runnin', I'm tired of this shit! That's my brother, homie!
+("Young man, come talk to me! Is that what I think that is?)
+I know that's not what I think that is
+Why are you so angry? See you young men are dying of thirst
+Do you know what that means? That means you need water, holy water
+You need to be baptized, with the spirit of The Lord
+Do you want to receive God as your personal savior?
+Okay, repeat after me
+Lord God, I come to you a sinner
+(Lord God, I come to you a sinner)
+And I humbly repent for my sins"
+(And I humbly repent for my sins)
+I believe that Jesus is Lord
+(I believe that Jesus is Lord)
+I believe you raised him from the dead
+(I believe you raised him from the dead)
+I would ask that Jesus come into my life
+(I would ask that Jesus come in my life)
+And to be my Lord and Savior
+And to be my Lord and Savior)
+I receive Jesus to take control of my life"
+(I receive Jesus to take control of my life)
+And that I may live with him from this day forward
+(And that I may live with him from this day forward)
+Thank you Lord Jesus for saving me with your precious blood
+(Thank you Lord Jesus for saving me with your precious blood)
+In Jesus name, amen
+(In Jesus name, amen)
+Alright now, remember this day: the start of a new life
+Your REAL life.</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Двосерійна пісня Кендріка Ламара "Заспівай про мене, я помираю від спраги" зображує життя в міському гетто. Від початку до кінця Ламар розповідає історії, які відірвали його від бандитської культури, а також говорить про духовне переродження, яке забезпечило йому втечу з вулиць.
+
+У першій частині Кендрік розповідає про себе з точки зору двох різних людей, перш ніж почати читати реп, щоб обговорити випробування, через які йому довелося пройти. У другій частині K-Dot підхоплює те, на чому зупинилась "Swimming Pool" - Дейва вбивають, а його брат шукає помсти. Пісня завершується тією ж молитвою, що й на початку альбому. У жовтні 2012 року в інтерв'ю програмі "Big Boy's Neighborhood" на радіостанції Power 106 Кендрік розповів про створення цих пісень:
+
+До того, як я став людиною зі зрілим поглядом на життя, я прийшов з темного місця, з місця негативу, з місця, де я був некерованим. [...] Я дійсно об'єднав ці два треки разом, тому що це була ситуація, яка сталася в той самий час.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        /wFwF6DxImK3BgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAABXRJREFUeF7t3UeIJUUcx/HBjDc9miNeTLAoCooREcSTAQMoXg0oi7jLGjGuiAcv
+        IhhQUQ9ePSoIZmUPBoywoh5NmHP6/lgHlzf/Z1eHqv539f8HHxhmpsN7b6YrdFX1SiQSiUQiFWc3HIXz
+        cQOexKt4G1vxNX79l77W9/SzV/AEtM150D52RaRldsI6bMCz+Bl/D+R3bMFmnI74gJZkB5yGx/AdrDcz
+        Bx3rUZwKncPssy/uxGew3rCSdA53YB/MLgfiPgx5ORrKb3gch6H66INQofwHrDfDE5U3qhQcgOqyM67G
+        97BevGc/4RZUUwFQbeZDWC92Sj6ACv/JRtVX/WX9CesFTtFfUNm3CyYV1Z5ehvWiavAGVB5OImdCLWbr
+        hdTkK5wB17kYqjZaL6BGqoldBpe5CjWVF6lUrlwLV7kV1snOiSowLnIFrBOco/UYNRdhjpepZXT5uhSj
+        RLWpORXgqXRfpnjtS+2ML2GdUNhW7S/WB6Z+qZobfUN5DUVa9PfCOoGw1t3IGnUUquCyDh7W0nt1CrJE
+        /37vwzpwWE493Vm67m+EdcDQbCMGzf74AdbBQrMfMWjv8FOwDhTS6T79IDkY6tW0DhLSaRzBIeidh2Ad
+        IDfV6N5d+N7UPYBeUYtcXQHWznNTVgdHfAvrd6ZGXU37oXM0iM3acQnbZ29o+FANbaDb0SkaWjnmiEIr
+        x+B1WL8/FZ+g07BVXcOtHZayLHoxl+BzWNtNwcloHQ18tnZWSlP2gIbkTGEU5KKH0SrqJik5Ct2SmqPx
+        Aqx9eKVKiiosyTkR1o5KapuzoeuztS+PjkdyboK1k5K6ZHdosIHHUfWLrkdynoe1k5L6RC3ip2Ht14vn
+        kBTN6fsF1k5KGiJn4SNY+x+b/ouTuuU1OdLaQWlDxXNr/3A0RrNdrY1LGzp7QT2unlr756AxHgp0yRVP
+        rf2kgl19RtbGpeWMl9Z+0j0SL0N8SmRP3I+xWvsvojHvwNq4tJIZq7X/FhrjpbU7Rkq39j9GYzQzyNq4
+        tLFSsrX/BRoz1h3CRWOnRGtfDfDGxAeyLfpAnoF1bkNJ+kDikuXskjX3Qv1TWOeTQ1KhHtXecpKqvS/B
+        2ri0EplEw1Ar4Fgbl5YzXrpONG6hMV5GuefKsfDSubgJjYnu93KSut9rvUE19igaS9INKt3C9TBIYIh4
+        voWrhdGSZ1bVMMghdyu7Ly2Bm5wYBpRfUoG+mhNg7aSktindyu7rOCRHBWEMJc3nG2gJxFbRis/Wzkpp
+        ypQHW2tWWuto6W9rZ6UsSw3TEU5C6+iFe5uw46mV3VXnCTtKTGkb3m3oHC1M72HSp8dWdhe6Q6g/rl55
+        ENbOc/Pcyu6q97Ro5SDEwgH9aUr0YMtreLlHMmVqRgwWTXaPxWe60+Izgy/5p5Ha1sFCs+sweDQz9z1Y
+        BwzLab2WVjNu20TPz6ihLVCK1jTutEhAm9wD6+BhrbuQPeql9DJUyDM9/DLbpWoxsZDy/9NCyloWsWi0
+        nHYsNb6Wupq0cM8ouQCxGP9/VOHRrYFRczmsk5uja+AiGlhgneCc3AxXuRLxyCNn0QNe5lTQqwC/EK6j
+        2tccqsSa/TRabapt1E6pufGo+/qTebDkamp+9GqxFniO6PkZNTzmQr222TsKS2V1sMIUH9+tm0v6T6/m
+        8d3bR/07mjQzhXv0OkfddlV5WH10O1PXYo+j1FWV1R/NoZhdNO5La6F7GLWuEYUaxNZ73FQN0dBKFZiP
+        oOTaiBqFrlWmNda28/DO2rMj1mEDNMtIU7+sN7MLlQtbsBlq1BV5zmBt0Zt2JM6FRr7o+q5G55vYCq3N
+        ouu+6Gt9Tz/T7+h3NVNJ2x6B+AAikUgkUmlWVv4BA6EtF7hSPF4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="button3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+</root>
